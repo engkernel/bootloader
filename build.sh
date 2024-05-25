@@ -1,5 +1,5 @@
 #!/bin/bash
 
-rm ./bin/boot.bin
+rm ./bin/boot_intel.bin
 
-nasm -f bin boot.asm -o ./bin/boot.bin
+nasm -f bin boot_inte/boot.asm -o ./bin/boot_intel.bin

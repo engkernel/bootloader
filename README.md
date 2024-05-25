@@ -15,3 +15,10 @@ for my platform
 ```
 0xAA55 
 ```
+
+# GDT Descriptor
+- to enter protected mode you require enable A20 line and then initialize GDT descriptor and then do a far jump to reach the 32 bit procedures
+basically for the beginning its better to initialize it in assembly and then we will go toward implement it in C
+- check gdt_descripotr in boot_intel.asm
+
+### Note: personally I like AT&T assembly syntax over intel as its more straight forward and logical to me compare to intel syntax eihter difference could not be eye catching.
