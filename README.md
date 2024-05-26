@@ -10,6 +10,8 @@ or simply you can use build.sh in linux
 ./build.sh
 ```
 
+to build the AT&T syntax bootloader run build.sh
+
 - the sign for qemu or legacy systems to detect boot signature, consider the sign would be 0x55AA but it depends you are using big endian or little endian
 for my platform
 ```
